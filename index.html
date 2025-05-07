@@ -118,7 +118,7 @@
 
 
 
-    <script>c
+    <script>      // this is another mistake the c should not  be there
         var menuBtn = document.getElementById("menuBtn")
         var sideNav = document.getElementById("sideNav")
         var menu = document.getElementById("menu")
@@ -127,10 +127,17 @@
 
         menuBtn.onclick = function () {
 
-            console.log(sideNav)
+       
             if (sideNav.style.right == "-250px") {
+
+               
+
                 sideNav.style.right = "0";
-                menu.src = "images/close3.png";
+                menu.src = "images/close7.png"; 
+                
+                //i closed the space inthe naming from new close to newclose
+                //i also just observed that u did not put the image in the right folder. this are simple mistake u should 
+                // noz be making
             }
             else {
                 sideNav.style.right = "-250px";
